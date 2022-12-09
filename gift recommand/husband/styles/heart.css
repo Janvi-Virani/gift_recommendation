@@ -1,0 +1,31 @@
+.h_container{
+    margin-left: 10px;
+    border-radius: 20px; 
+    /* color:#5b0617; */
+    /* color: #FBA3A3;; */
+    display: inline;
+    transition: .4s;
+}
+
+#heart{
+    font-size: 25px;
+}
+.h_container :hover 
+{
+    color:#f50057;
+}
+.button{
+    position: relative;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.button:hover
+{
+    color: aliceblue;
+    border: none;
+    outline: none;
+    background: none;
+}
+

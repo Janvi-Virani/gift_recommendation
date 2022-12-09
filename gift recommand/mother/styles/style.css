@@ -1,0 +1,44 @@
+.carousel img {
+    height: 500px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.h1 {
+    text-align: center;
+    margin: 6px;
+    margin-top: 30px;
+}
+.col img{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+
+   
+}
+.content{
+    border: 2px solid black;
+    padding-top: 80px;
+    justify-content: center;
+}
+.ideades h1{
+text-align: center;
+}
+
+.other{
+    border: 2px solid black;
+    margin: 30px;
+
+}
+.other h1{
+    text-align: center;
+}
+.other .container .row img{
+    width: 300px;
+    height: 250px;
+    border: 2px solid black
+    ;
+}
+
+

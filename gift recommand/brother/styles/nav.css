@@ -1,0 +1,111 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 6%;
+    z-index: 10000;
+    background: #D10000;
+}
+
+.logoimg {
+    height: 10%;
+    width: 10%;
+}
+
+.logotext {
+    color: #fff;
+}
+
+.logotable {
+    table-layout: auto;
+    width: 600px;
+}
+
+.header .logo {
+    font-weight: bolder;
+    color: black;
+    font-size: 3rem;
+}
+
+.header .logo span {
+    color: #D10000;
+}
+
+.header .navbar a {
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.header .navbar a:hover {
+    background: #FFFAFA;
+    color: #D10000;
+}
+
+#menu-btn {
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+    
+.two h1 {
+        text-transform: capitalize;
+    }
+    
+    .alt-two h1 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        line-height: 1em;
+        text-align: center;
+        padding-left: 0.25em;
+        color: rgba(0, 0, 0, 0.4);
+        padding-bottom: 10px;
+    }
+    
+    .alt-two h1:before {
+        left: 50%;
+        margin-left: -30px;
+    }
+
+.title {
+        width:100%;
+        text-align:center; 
+        position: relative;
+     }
+     
+     h2 {
+        position:relative; 
+        padding:10px; 
+        font-size: 20px;
+        background: #f3f5f6;
+        display: inline-block;
+        z-index: 1;
+     }
+     
+     .title::after {
+        content:'';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        height: 1px;
+        background: #000;
+        z-index:0;
+     }
+    
